@@ -1,4 +1,4 @@
-# vpn-notes-01
+# fritzbox-vpn
 
 How to set up a VPN connection to an AVM Fritzbox.
 
