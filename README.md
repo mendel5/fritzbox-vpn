@@ -4,7 +4,11 @@ How to set up a VPN connection to an AVM Fritzbox.
 
 Note: The content is focused on Germany.
 
-## VPN Type
+## Hinweis
+- Es wird dringend empfohlen, eine VPN-Verbindung über **Wireguard** zur Fritzbox herzustellen.
+- VPN-Verbindungen, die noch auf IPSec setzen, sollten durch Wireguard ersetzt werden.
+
+## VPN-Arten
 - Die FRITZ!Box unterstützt VPN-Verbindungen nach dem IPSec-Standard mit ESP, IKEv1 und Pre-Shared Keys. Authentication Header (AH) und Perfect Forward Security (PFS) werden nicht unterstützt. Source: https://avm.de/service/vpn/tipps-tricks/fritzbox-mit-einem-firmen-vpn-verbinden/
 - IKEv2 wird nicht unterstützt.
 - In Zukunft wird die Fritzbox auch Wireguard-VPN unterstützen. Links:
